@@ -22,6 +22,8 @@ Agents are software components that collect and transmit monitoring data from de
 ### **NMS (Network Management System)**
 A Network Management System (NMS) is a platform that provides real-time monitoring, analysis, and reporting of network performance. PRTG serves as an NMS by offering a centralized interface for managing network devices, servers, and applications.
 
+![hostonly](images/dashbord.png)
+
 ### **Manager**
 The manager (or monitoring server) in PRTG is responsible for:
 - Collecting data from monitored devices.
