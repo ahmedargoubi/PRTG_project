@@ -9,20 +9,20 @@ PRTG (Paessler Router Traffic Grapher) is a comprehensive network monitoring sol
 SNMP is a widely used protocol for network management. It enables monitoring of network devices, collecting performance data, and sending alerts. PRTG uses SNMP to retrieve information from routers, switches, firewalls, and other SNMP-enabled devices.
 ![hostonly](images/snmp.jpg)
 
-####  **Ports**
+###  **Ports**
 Network monitoring relies on different ports for communication. Some commonly used ports in PRTG include:
 - **161/162 (UDP)**: Used for SNMP queries and SNMP traps.
 - **443 (TCP)**: Used for web-based access to the PRTG dashboard.
 - **80 (TCP)**: Alternative port for HTTP-based access.
 - **8080/8443 (TCP)**: Commonly used for additional services or remote probes.
 
-####  **Agents**
+###  **Agents**
 Agents are software components that collect and transmit monitoring data from devices to the PRTG server. PRTG can operate with or without agents, depending on the monitoring method (e.g., SNMP, WMI, SSH, or NetFlow).
 
-#### **NMS (Network Management System)**
+### **NMS (Network Management System)**
 A Network Management System (NMS) is a platform that provides real-time monitoring, analysis, and reporting of network performance. PRTG serves as an NMS by offering a centralized interface for managing network devices, servers, and applications.
 
-#### **Manager**
+### **Manager**
 The manager (or monitoring server) in PRTG is responsible for:
 - Collecting data from monitored devices.
 - Analyzing performance trends.
